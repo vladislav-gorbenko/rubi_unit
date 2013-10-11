@@ -4,9 +4,12 @@ class Truck < Cars
   end
 
   def add_speed
+
     puts "I am sport car"
     puts "My speed is"
-    puts "But I can drive better "
+    puts "But I can drive better"
+    "I am sport car"
+
   end
 
 
