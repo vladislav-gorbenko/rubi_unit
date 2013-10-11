@@ -23,6 +23,7 @@ class Parking
   def del_car car
       @place.delete_if {|i| i.number == car.number}
       puts "The car #{car.brend_name} #{car.model}, number:#{car.number} is lefting parking. Good luck"
+      puts "The car #{car.brend_name} #{car.model}, number:#{car.number} is left parking"
      end
 
   def info
